@@ -1,31 +1,42 @@
 * {
-    box-sizing: border-box;
-  }
-  ul {
-     list-style-type:none;
-     margin: 0;
-      padding: 0;
-  }
-  .flex-container {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-  }
-  .flex-item{
-    width: 50%;
-    padding: 10px;
-    text-align: center;
-    justify-content: center;
-  }
-  .paragraph-container{
-    width: 50%;
-    padding: 10px;
-  }
-  .icon{
-    border: 1px black solid;
-    border-radius: 100px;
-    background:black;
-    float:right;
-    padding:15px;
-    margin: 10px;
-  }
+  box-sizing: border-box;
+}
+body{
+  background-image: url("images/geometric-leaves.png");
+  background-repeat: repeat;
+  font-family: Francois One;
+}
+h1,h2,h3,h4{
+  font-family: "Lobster";
+}
+ul {
+   list-style-type:none;
+   margin: 0;
+    padding: 0;
+}
+.flex-container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.flex-item{
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  justify-content: center;
+}
+.paragraph-container{
+  width: 50%;
+  padding: 10px;
+}
+.icon{
+  border: 1px black none;
+  border-radius: 100px;
+  float:right;
+  padding-left:10px;
+  padding-right:10px;
+  padding-top:10px;
+  padding-bottom:5px;
+  margin: 10px;
+  justify-content:center;align-items:center;
+}
